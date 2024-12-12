@@ -39,7 +39,7 @@ const Page3 = () => {
                 ease: 'power1.inOut'
             })
             .fromTo('#page3-p2', {
-                y: '-100vw'
+                y: '-160vw'
             }, {
                 y: '0vw',
                 delay: 1,
@@ -57,7 +57,7 @@ const Page3 = () => {
 
             })
             .fromTo('#page3-p4', {
-                y: '100vw'
+                y: '160vw'
             }, {
                 y: '0vw',
                 delay: 1,
@@ -91,16 +91,16 @@ const Page3 = () => {
                 again.
             </p>
 
-            <div className='bg-red-500 w-screen h-dvh absolute  top-0' id='page3-p1'>
+            <div className='bg-red-500 w-screen h-dvh absolute top-0 left-0' id='page3-p1'>
 
             </div>
-            <div className='bg-blue-500 w-screen h-dvh absolute  top-0' id='page3-p2'>
+            <div className='bg-blue-500 w-screen h-dvh absolute top-0 left-0' id='page3-p2'>
 
             </div>
-            <div className='bg-red-500 w-screen h-dvh absolute  top-0' id='page3-p3'>
+            <div className='bg-red-500 w-screen h-dvh absolute top-0 left-0' id='page3-p3'>
 
             </div>
-            <div className='bg-blue-500 w-screen h-dvh absolute  top-0' id='page3-p4'>
+            <div className='bg-blue-500 w-screen h-dvh absolute top-0 left-0' id='page3-p4'>
 
             </div>
         </div>

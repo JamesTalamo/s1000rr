@@ -48,7 +48,15 @@ const Page1 = () => {
 
     return (
         <div className='w-screen  relative bg-black overflow-hidden' id='clip'>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[0%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[0%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -58,7 +66,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[5%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[5%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -68,7 +84,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[10%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[10%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -78,7 +102,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[15%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[15%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -88,7 +120,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[20%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[20%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -98,7 +138,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[25%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[25%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -108,7 +156,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[30%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[30%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -118,7 +174,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[35%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[35%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -128,7 +192,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[40%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[40%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -138,7 +210,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[45%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[45%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -148,7 +228,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[50%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[50%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -158,7 +246,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[55%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[55%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -168,7 +264,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[60%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[60%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -178,7 +282,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[65%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[65%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -188,7 +300,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[70%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[70%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -198,7 +318,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[75%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[75%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -208,7 +336,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[80%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[80%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -218,7 +354,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[85%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[85%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -228,7 +372,15 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[2%] top-[90%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[90%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
