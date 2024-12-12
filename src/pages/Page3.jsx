@@ -16,7 +16,7 @@ const Page3 = () => {
                 start: '80% bottom',
                 end: 'bottom bottom',
                 // markers: true,
-                scrub: true,
+                scrub: 2,
                 pin: '#text-head-1'
             }
         })

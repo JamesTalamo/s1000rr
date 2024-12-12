@@ -13,7 +13,7 @@ const Page1 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#clip',
-                scrub: 0.5,
+                scrub: 2,
                 start: 'top top',
                 end: '+900',
                 pin: '#img',
@@ -87,6 +87,9 @@ const Page1 = () => {
                 BMW BMW BMW BMW BMW BMW BMW BMW
             </h1>
             <h1 className='text-5xl font-bold absolute left-[2%] top-[80%] text-[5rem] whitespace-nowrap'>
+                BMW BMW BMW BMW BMW BMW BMW BMW
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[2%] top-[85%] text-[5rem] whitespace-nowrap'>
                 BMW BMW BMW BMW BMW BMW BMW BMW
             </h1>
             <img

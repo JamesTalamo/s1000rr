@@ -13,7 +13,7 @@ const Page2 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger2',
-                scrub: 0.5,
+                scrub: 2,
                 pin: '#trigger2',
                 // markers: true 
             }
