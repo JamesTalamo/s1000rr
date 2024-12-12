@@ -12,11 +12,19 @@ const Page2 = () => {
     useGSAP(() => {
         let tl = gsap.timeline({
             scrollTrigger: {
-                trigger: '#trigger',
+                trigger: '#trigger2',
                 scrub: true,
-                pin: '#trigger',
+                pin: '#trigger2',
                 // markers: true 
             }
+        })
+
+        tl.to('#trigger2',{
+            backgroundColor:'red'
+        })
+
+        tl.to('#p2-head-text',{
+            color:'white'
         })
 
         tl.to('#img1', {
@@ -37,8 +45,8 @@ const Page2 = () => {
     })
 
     return (
-        <div className='w-screen h-dvh relative bg-white' id='trigger'>
-            <h1 className='absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-5xl font-bold text-center'>BMW S1000 RR<br />RACE READY</h1>
+        <div className='w-screen h-dvh relative bg-white' id='trigger2'>
+            <h1 className='absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-9xl font-bold text-center' id='p2-head-text'>RACE READY</h1>
 
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-500' id='img1'>
                 <img

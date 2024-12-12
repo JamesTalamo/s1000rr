@@ -10,6 +10,7 @@ function App() {
       <Page1 />
       <Page2 />
       <Page3 />
+      <div className='w-screen h-dvh bg-red-500'></div>
     </div>
   )
 }
