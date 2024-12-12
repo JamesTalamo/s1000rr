@@ -39,7 +39,7 @@ const Page3 = () => {
                 ease: 'power1.inOut'
             })
             .fromTo('#page3-p2', {
-                y: '-160vw'
+                y: '-200vw'
             }, {
                 y: '0vw',
                 delay: 1,
@@ -57,7 +57,7 @@ const Page3 = () => {
 
             })
             .fromTo('#page3-p4', {
-                y: '160vw'
+                y: '200vw'
             }, {
                 y: '0vw',
                 delay: 1,
