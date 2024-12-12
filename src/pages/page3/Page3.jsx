@@ -21,14 +21,12 @@ const Page3 = () => {
             }
         })
 
-        tl.to('#text-head-1', {
-            color: 'white',
-            duration: 3
+        tl.fromTo('#page2-rr', {
+            left:'100vw'
+        }, {
+            left:'0vw',
+            duration:30
         })
-            .to('#trigger3', {
-                backgroundColor: 'black',
-                duration: 3
-            })
 
             .fromTo('#page3-p1', {
                 x: '100vw',
@@ -36,7 +34,7 @@ const Page3 = () => {
             }, {
                 x: '0vw',
                 delay: 1,
-                duration: 5,
+                duration: 30,
                 ease: 'power1.inOut'
             })
             .fromTo('#page3-p2', {
@@ -45,9 +43,8 @@ const Page3 = () => {
             }, {
                 x: '0vw',
                 delay: 1,
-                duration: 5,
-                ease: 'power1.inOut'
-
+                duration: 30,
+                ease: 'power1.inOut',
             })
             .fromTo('#page3-p3', {
                 x: '100vw',
@@ -55,7 +52,7 @@ const Page3 = () => {
             }, {
                 x: '0vw',
                 delay: 1,
-                duration: 5,
+                duration: 30,
                 ease: 'power1.inOut'
             })
             .fromTo('#page3-p4', {
@@ -64,7 +61,7 @@ const Page3 = () => {
             }, {
                 x: '0vw',
                 delay: 1,
-                duration: 5,
+                duration: 30,
                 ease: 'power1.inOut'
             })
 
@@ -72,9 +69,9 @@ const Page3 = () => {
     })
 
     return (
-        <div className='w-screen h-dvh bg-white relative flex-column items-center justify-center overflow-hidden ' id='trigger3'>
-            <h1 className='text-black font-bold text-5xl text-center pt-[10%]' id='text-head-1'>BMW S 1000
-                <span className="text-red-500 " id="page2-rr"> RR
+        <div className='w-screen h-dvh bg-black relative flex-column items-center justify-center overflow-hidden ' id='trigger3'>
+            <h1 className='text-white font-bold text-5xl text-center pt-[10%]' id='text-head-1'>BMW S 1000
+                <span className="text-red-500 relative" id="page2-rr"> RR
                 </span>
 
             </h1>
@@ -93,7 +90,7 @@ const Page3 = () => {
                 again.
             </p>
 
-            <div className='bg-red-500 w-screen h-dvh absolute top-0 left-0' id='page3-p1'>
+            <div className='bg-white w-screen h-dvh absolute top-0 left-0' id='page3-p1'>
 
             </div>
             <div className='bg-blue-500 w-screen h-dvh absolute top-0 left-0' id='page3-p2'>

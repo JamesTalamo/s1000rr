@@ -1,8 +1,8 @@
 
 
-import Page1 from "./pages/Page1"
-import Page2 from "./pages/Page2"
-import Page3 from "./pages/Page3"
+import Page1 from "./pages/page1/Page1"
+import Page2 from "./pages/page2/Page2"
+import Page3 from "./pages/page3/Page3"
 
 function App() {
   return (

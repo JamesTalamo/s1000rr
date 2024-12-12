@@ -13,7 +13,7 @@ const Page1 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#clip',
-                scrub: true,
+                scrub: 1,
                 start: 'top top',
                 end: '+700',
                 pin: '#img',
@@ -31,7 +31,7 @@ const Page1 = () => {
             }, 0)
             .fromTo('#img',
                 {
-                    scale: 0.1,
+                    scale: 0,
                     clipPath: 'circle(26.3% at 50% 50%)'
                 },
                 {

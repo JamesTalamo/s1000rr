@@ -13,30 +13,38 @@ const Page2 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger2',
-                scrub: 2,
+                scrub: 1,
                 pin: '#trigger2',
                 // markers: true 
             }
         })
-        tl.to('#p2-head-text',{
-            color:'black'
+        tl.to('#p2-head-text', {
+            color: 'white'
         })
-
-        tl.to('#img1', {
-            x: '100%'
-        })
-        tl.to('#img2', {
-            x: '-100%'
-        })
-        tl.to('#img3', {
-            x: '100%'
-        })
-        tl.to('#img4', {
-            x: '-100%'
-        })
-        tl.to('#img5', {
-            x: '100%'
-        })
+            .to('#trigger2', {
+                backgroundColor: 'black',
+                duration: 30
+            })
+            .to('#img1', {
+                x: '100%',
+                duration: 30
+            })
+            .to('#img2', {
+                x: '-100%',
+                duration: 30
+            })
+            .to('#img3', {
+                x: '100%',
+                duration: 30
+            })
+            .to('#img4', {
+                x: '-100%',
+                duration: 30
+            })
+            .to('#img5', {
+                x: '100%',
+                duration: 30
+            })
     })
 
     return (
