@@ -32,7 +32,7 @@ const Page3 = () => {
     })
 
     return (
-        <div className='w-screen h-dvh bg-white relative flex-column items-center justify-center ' id='trigger3'>
+        <div className='w-screen bg-white relative flex-column items-center justify-center ' id='trigger3'>
             <h1 className='text-black font-bold text-5xl text-center' id='text-head-1'>BMW S 1000 RR</h1>
 
             <p className='text-white text-center pl-[30%] pr-[30%] pt-[10%]'>

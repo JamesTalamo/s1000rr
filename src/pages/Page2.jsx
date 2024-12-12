@@ -46,7 +46,7 @@ const Page2 = () => {
 
     return (
         <div className='w-screen h-dvh relative bg-white' id='trigger2'>
-            <h1 className='absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-9xl font-bold text-center' id='p2-head-text'>RACE READY</h1>
+            <h1 className='absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-6xl font-bold text-center' id='p2-head-text'>RACE READY</h1>
 
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-500' id='img1'>
                 <img
