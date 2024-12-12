@@ -15,7 +15,7 @@ const Page3 = () => {
                 trigger: '#trigger3',
                 start: '80% bottom',
                 end: 'bottom bottom',
-                markers: true,
+                // markers: true,
                 scrub: true,
                 pin: '#text-head-1'
             }
