@@ -70,7 +70,7 @@ const Page3 = () => {
 
     return (
         <div className='w-screen h-dvh bg-black relative flex-column items-center justify-center overflow-hidden ' id='trigger3'>
-            <h1 className='text-white font-bold text-5xl text-center pt-[10%]' id='text-head-1'>BMW S 1000
+            <h1 className='text-white font-bold text-5xl text-center pt-[50%] lg:pt-[10%]' id='text-head-1'>BMW S 1000
                 <span className="text-red-500 relative" id="page2-rr"> RR
                 </span>
 
