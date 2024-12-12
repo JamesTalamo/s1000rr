@@ -39,15 +39,7 @@ const Page3 = () => {
                 ease: 'power1.inOut'
             })
             .fromTo('#page3-p2', {
-                y: '-200vw'
-            }, {
-                y: '0vw',
-                delay: 1,
-                duration: 5,
-                ease: 'power1.inOut'
 
-            })
-            .fromTo('#page3-p3', {
                 x: '-100vw'
             }, {
                 x: '0vw',
@@ -56,14 +48,23 @@ const Page3 = () => {
                 ease: 'power1.inOut'
 
             })
-            .fromTo('#page3-p4', {
-                y: '200vw'
+            .fromTo('#page3-p3', {
+                x: '100vw',
+
             }, {
-                y: '0vw',
+                x: '0vw',
                 delay: 1,
                 duration: 5,
                 ease: 'power1.inOut'
+            })
+            .fromTo('#page3-p4', {
+                x: '-100vw',
 
+            }, {
+                x: '0vw',
+                delay: 1,
+                duration: 5,
+                ease: 'power1.inOut'
             })
 
 
