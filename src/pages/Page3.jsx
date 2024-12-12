@@ -13,27 +13,69 @@ const Page3 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger3',
-                start: '80% bottom',
-                end: 'bottom bottom',
+                start: 'bottom bottom',
+                pin: '#trigger3',
                 // markers: true,
-                scrub: 2,
-                pin: '#text-head-1'
+                scrub: 1,
             }
         })
 
         tl.to('#text-head-1', {
-            color: 'white'
+            color: 'white',
+            duration: 3
         })
-        tl.to('#trigger3', {
-            backgroundColor: 'black'
-        })
+            .to('#trigger3', {
+                backgroundColor: 'black',
+                duration: 3
+            })
+
+            .fromTo('#page3-p1', {
+                x: '100vw',
+
+            }, {
+                x: '0vw',
+                delay: 1,
+                duration: 5,
+                ease: 'power1.inOut'
+            })
+            .fromTo('#page3-p2', {
+                y: '-100vw'
+            }, {
+                y: '0vw',
+                delay: 1,
+                duration: 5,
+                ease: 'power1.inOut'
+
+            })
+            .fromTo('#page3-p3', {
+                x: '-100vw'
+            }, {
+                x: '0vw',
+                delay: 1,
+                duration: 5,
+                ease: 'power1.inOut'
+
+            })
+            .fromTo('#page3-p4', {
+                y: '100vw'
+            }, {
+                y: '0vw',
+                delay: 1,
+                duration: 5,
+                ease: 'power1.inOut'
+
+            })
 
 
     })
 
     return (
-        <div className='w-screen h-dvh bg-white relative flex-column items-center justify-center ' id='trigger3'>
-            <h1 className='text-black font-bold text-5xl text-center' id='text-head-1'>BMW S 1000 RR</h1>
+        <div className='w-screen h-dvh bg-white relative flex-column items-center justify-center overflow-hidden ' id='trigger3'>
+            <h1 className='text-black font-bold text-5xl text-center pt-[10%]' id='text-head-1'>BMW S 1000
+                <span className="text-red-500 " id="page2-rr"> RR
+                </span>
+
+            </h1>
 
             <p className='text-white text-center pl-[10%] pr-[10%] md:pl-[30%] md:pr-[30%] pt-[10%]'>
                 The RR is now even more focused and more
@@ -48,6 +90,19 @@ const Page3 = () => {
                 the bike for the race track. And all this with a clear goal in mind – claiming the pole position over and over
                 again.
             </p>
+
+            <div className='bg-red-500 w-screen h-dvh absolute  top-0' id='page3-p1'>
+
+            </div>
+            <div className='bg-blue-500 w-screen h-dvh absolute  top-0' id='page3-p2'>
+
+            </div>
+            <div className='bg-red-500 w-screen h-dvh absolute  top-0' id='page3-p3'>
+
+            </div>
+            <div className='bg-blue-500 w-screen h-dvh absolute  top-0' id='page3-p4'>
+
+            </div>
         </div>
     )
 }
