@@ -15,6 +15,7 @@ const Page3 = () => {
                 trigger: '#trigger3',
                 start: 'bottom bottom',
                 pin: '#trigger3',
+                pinSpacer: true,
                 // markers: true,
                 scrub: 1,
             }
