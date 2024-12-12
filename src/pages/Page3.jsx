@@ -48,8 +48,6 @@ const Page3 = () => {
                 the bike for the race track. And all this with a clear goal in mind – claiming the pole position over and over
                 again.
             </p>
-
-           
         </div>
     )
 }
