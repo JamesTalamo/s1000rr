@@ -5,6 +5,8 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all'
 
+gsap.registerPlugin(ScrollTrigger)
+
 const Page2 = () => {
 
     useGSAP(() => {
@@ -40,31 +42,31 @@ const Page2 = () => {
 
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-500' id='img1'>
                 <img
-                    src='/src/assets/page2/page2-img1.jpg'
+                    src='/assets/page2/page2-img1.jpg'
                     className="object-cover h-full w-full"
                 />
             </div>
             <div className='w-screen h-[20%] relative left-[100%] bg-blue-600' id='img2'>
                 <img
-                    src='/src/assets/page2/page2-img2.jpg'
+                    src='/assets/page2/page2-img2.jpg'
                     className="object-cover h-full w-full"
                 />
             </div>
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-700' id='img3'>
                 <img
-                    src='/src/assets/page2/page2-img3.png'
+                    src='/assets/page2/page2-img3.png'
                     className="object-cover h-full w-full"
                 />
             </div>
             <div className='w-screen h-[20%] relative left-[100%] bg-blue-800' id='img4'>
                 <img
-                    src='/src/assets/page2/page2-img4.jpg'
+                    src='/assets/page2/page2-img4.jpg'
                     className="object-cover h-full w-full"
                 />
             </div>
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-900' id='img5'>
                 <img
-                    src='/src/assets/page2/page2-img5.jpg'
+                    src='/assets/page2/page2-img5.jpg'
                     className="object-cover h-full w-full"
                 />
             </div>
