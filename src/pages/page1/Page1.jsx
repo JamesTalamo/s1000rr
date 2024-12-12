@@ -18,6 +18,7 @@ const Page1 = () => {
                 end: '+700',
                 pin: '#img',
                 pinSpacing: true,
+                // markers: true
             }
         })
 
@@ -31,7 +32,7 @@ const Page1 = () => {
             }, 0)
             .fromTo('#img',
                 {
-                    scale: 0,
+                    scale: 0.2,
                     clipPath: 'circle(26.3% at 50% 50%)'
                 },
                 {
