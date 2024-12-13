@@ -17,7 +17,9 @@ const Page3 = () => {
                 end: 'top top',
                 pinSpacer: true,
                 // markers: true,
-                // scrub: 0.5
+                // scrub: 0.5,
+                toggleActions:'restart none none none'
+
             }
         })
         .fromTo('#p3-img', {

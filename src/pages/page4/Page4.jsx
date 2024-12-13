@@ -13,7 +13,8 @@ const Page4 = () => {
             scrollTrigger: {
                 trigger: '#trigger4',
                 start: 'top center',
-                // markers: true
+                // markers: true,
+                toggleActions: 'restart none none none'
             }
         })
             .fromTo('#page4-img1', {
