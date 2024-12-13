@@ -47,7 +47,7 @@ const Page4 = () => {
                             the tendency of the front wheel to lift off the road surface when accelerating.
                         </p>
                     </div>
-                    <div className='relative right-[-6%] overflow-hidden'>
+                    <div className='relative lg:right-[-6%] overflow-hidden'>
                         <img
                             src='assets/page4/page4-img1.png'
                             className='w-[100%] lg:w-[90%] relative'
