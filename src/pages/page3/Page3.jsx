@@ -17,17 +17,14 @@ const Page3 = () => {
                 end: 'top top',
                 pinSpacer: true,
                 // markers: true,
-                scrub: 0.5
+                // scrub: 0.5
             }
         })
         .fromTo('#p3-img', {
-            opacity: 0,
             top: '350px'
         }, {
             top:'0px',
-            opacity: 1,
-            duration: 1,
-            ease: 'power1.inOut'
+            duration: 0.5,
         })
     })
 
