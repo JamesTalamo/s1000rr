@@ -9,7 +9,7 @@ function App() {
       <Page1 />
       <Page2 />
       <Page3 />
-      <div className='w-screen h-dvh bg-black'></div>
+      {/* <div className='w-screen h-dvh bg-black'></div> */}
     </div>
   )
 }

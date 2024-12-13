@@ -14,68 +14,20 @@ const Page3 = () => {
             scrollTrigger: {
                 trigger: '#trigger3',
                 start: 'bottom bottom',
-                end :'+=4000 bottom',
-                pin: "#trigger3",
                 pinSpacer: true,
                 // markers: true,
                 scrub: 0.5
             }
         })
-
-        tl.fromTo('#page2-rr', {
-            opacity: 0
-        }, {
-            opacity: 1,
-            duration: 10
-        })
-
-            .fromTo('#page3-p1', {
-                x: '100vw',
-
-            }, {
-                x: '0vw',
-                delay: 1,
-                duration: 30,
-                ease: 'power1.inOut'
-            })
-            .fromTo('#page3-p2', {
-
-                x: '-100vw'
-            }, {
-                x: '0vw',
-                delay: 1,
-                duration: 30,
-                ease: 'power1.inOut',
-            })
-            .fromTo('#page3-p3', {
-                x: '100vw',
-
-            }, {
-                x: '0vw',
-                delay: 1,
-                duration: 30,
-                ease: 'power1.inOut'
-            })
-            .fromTo('#page3-p4', {
-                x: '-100vw',
-
-            }, {
-                x: '0vw',
-                delay: 1,
-                duration: 30,
-                ease: 'power1.inOut'
-            })
-
-
     })
 
     return (
-        <div className='w-screen h-dvh bg-black relative flex-column items-center justify-center overflow-hidden ' id='trigger3'>
-            <div className='flex flex-col lg:flex-row items-center justify-center mx-[10%] relative lg:mt-[10%]'>
+        <div className='w-screen h-vdh bg-black relative flex-column items-center justify-center overflow-hidden py-[5%] ' id='trigger3'>
+            <div className='flex flex-col lg:flex-row items-center justify-center mx-[10%] relative lg:mt-[10%'>
 
                 <div className='flex flex-col items-start md:items-center lg:items-start justify-center'>
-                    <h1 className='text-white font-bold text-5xl lg:text-6xl  pt-[2%] pb-[1%] md:pt-[5%]' id='text-head-1'>THE BMW S 1000
-                        <span className="text-red-500 relative" id="page2-rr"> RR
+                    <h1 className='text-white font-bold text-5xl lg:text-6xl md:pt-[5%]' id='text-head-1'>THE BMW S 1000
+                        <span className="text-red-500 relative"> RR
                         </span>
                     </h1>
                     <h2 className='font-bold text-3xl text-white pb-[2%]'>CHALLENGE YOUR LIMITS</h2>
@@ -98,19 +50,6 @@ const Page3 = () => {
                     src='/assets/page3/page3-head-img.png'
                     className='w-[100%] h-[300px] lg:w-[40%] lg:h-[70%] relative lg:absoulte md:right-[0%] md:bottom-[0%]  lg:right-[0%] lg:bottom-[0%]'
                 />
-
-            </div>
-
-            <div className='bg-white w-screen h-dvh absolute top-0 left-0' id='page3-p1'>
-
-            </div>
-            <div className='bg-blue-500 w-screen h-dvh absolute top-0 left-0' id='page3-p2'>
-
-            </div>
-            <div className='bg-red-500 w-screen h-dvh absolute top-0 left-0' id='page3-p3'>
-
-            </div>
-            <div className='bg-blue-500 w-screen h-dvh absolute top-0 left-0' id='page3-p4'>
 
             </div>
         </div>
