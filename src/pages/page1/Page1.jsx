@@ -13,12 +13,12 @@ const Page1 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#clip',
-                scrub: 1,
+                scrub: 0.5,
                 start: 'top top',
-                end: '+1500',
+                end: '+3000 top',
                 pin: '#img',
                 pinSpacing: true,
-
+                markers: true
             }
         })
 
@@ -72,7 +72,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-5%] top-[5%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-5%] top-[2%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -90,7 +90,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-9%] top-[10%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-9%] top-[4%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -108,7 +108,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-13%] top-[15%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-13%] top-[6%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -126,7 +126,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-17%] top-[20%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-17%] top-[8%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -144,7 +144,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-21%] top-[25%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-21%] top-[10%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -162,7 +162,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-25%] top-[30%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-25%] top-[12%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -181,7 +181,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-29%] top-[35%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-29%] top-[14%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -199,7 +199,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-33%] top-[40%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-33%] top-[16%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -217,7 +217,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-37%] top-[45%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-37%] top-[18%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -235,7 +235,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-41%] top-[50%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-41%] top-[20%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -253,7 +253,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-45%] top-[55%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-45%] top-[22%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -271,7 +271,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-49%] top-[60%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-49%] top-[24%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -289,7 +289,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-53%] top-[65%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-53%] top-[26%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -307,7 +307,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-57%] top-[70%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-57%] top-[28%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -325,7 +325,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-61%] top-[75%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-61%] top-[30%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -343,7 +343,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-65%] top-[80%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-65%] top-[32%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500 relative' >B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -361,7 +361,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-69%] top-[85%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-69%] top-[34%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -379,7 +379,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
-            <h1 className='text-5xl font-bold absolute left-[-73%] top-[90%] text-[5rem] whitespace-nowrap'>
+            <h1 className='text-5xl font-bold absolute left-[-73%] top-[36%] text-[5rem] whitespace-nowrap'>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -397,6 +397,515 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
+
+            <h1 className='text-5xl font-bold absolute left-[-1%] top-[38%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-5%] top-[40%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-9%] top-[42%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-13%] top-[44%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-17%] top-[46%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-21%] top-[48%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-25%] top-[50%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-29%] top-[52%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-33%] top-[54%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-37%] top-[56%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-41%] top-[58%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-45%] top-[60%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-49%] top-[62%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-53%] top-[64%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-57%] top-[66%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-61%] top-[68%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-65%] top-[70%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500 relative' >B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-69%] top-[72%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-73%] top-[74%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+
+            <h1 className='text-5xl font-bold absolute left-[-33%] top-[76%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-37%] top-[78%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-41%] top-[80%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-45%] top-[82%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-49%] top-[84%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-53%] top-[86%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-57%] top-[88%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-61%] top-[90%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            <h1 className='text-5xl font-bold absolute left-[-65%] top-[92%] text-[5rem] whitespace-nowrap'>
+                <span className='text-red-500 relative' >B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+            </h1>
+            
+            
             <img
                 src='/assets/page1/page1-img1.png'
                 className='object-cover w-screen h-screen' id='img'

@@ -14,8 +14,10 @@ const Page2 = () => {
             scrollTrigger: {
                 trigger: '#trigger2',
                 scrub: 1,
+                start: "top top",
+                end: '+=3000 top',
                 pin: '#trigger2',
-                // markers: true 
+                // markers: true
             }
         })
         tl.to('#p2-head-text', {
