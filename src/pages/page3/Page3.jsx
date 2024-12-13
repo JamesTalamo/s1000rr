@@ -14,7 +14,7 @@ const Page3 = () => {
             scrollTrigger: {
                 trigger: '#trigger3',
                 start: 'bottom bottom',
-                end :'+=9000 bottom',
+                end :'+=4000 bottom',
                 pin: "#trigger3",
                 pinSpacer: true,
                 // markers: true,

@@ -23,10 +23,6 @@ const Page2 = () => {
         tl.to('#p2-head-text', {
             color: 'white'
         })
-            .to('#trigger2', {
-                backgroundColor: 'black',
-                duration: 30
-            })
             .to('#img1', {
                 x: '100%',
                 duration: 30
@@ -50,7 +46,7 @@ const Page2 = () => {
     })
 
     return (
-        <div className='w-screen h-dvh relative bg-white' id='trigger2'>
+        <div className='w-screen h-dvh relative bg-black' id='trigger2'>
             <h1 className='absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-7xl font-bold text-center text-white' id='p2-head-text'>RACE READY</h1>
 
             <div className='w-screen h-[20%] relative right-[100%] bg-blue-500' id='img1'>

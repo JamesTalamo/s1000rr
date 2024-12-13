@@ -18,12 +18,12 @@ const Page1 = () => {
                 end: '+3000 top',
                 pin: '#img',
                 pinSpacing: true,
-                markers: true
+                // markers: true
             }
         })
 
         tl.to('#clip', {
-            backgroundColor: 'white',
+            backgroundColor: 'black',
             duration: 1
         })
             .to('#b', {
@@ -53,7 +53,7 @@ const Page1 = () => {
     })
 
     return (
-        <div className='w-screen  relative bg-black overflow-hidden' id='clip'>
+        <div className='w-screen  relative bg-white overflow-hidden' id='clip'>
             <h1 className='text-5xl font-bold absolute left-[-1%] top-[0%] text-[5rem] whitespace-nowrap'>
                 <span className='text-custom-dark1'>B</span><span className='text-custom-dark2' id='b'>M</span><span className='text-custom-dark3'>W </span>
                 <span className='text-custom-dark1'>B</span><span className='text-custom-dark2' id='b'>M</span><span className='text-custom-dark3'>W </span>
