@@ -13,19 +13,30 @@ const Page3 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger3',
-                start: 'bottom bottom',
+                start: '-100 bottom',
+                end: 'top top',
                 pinSpacer: true,
                 // markers: true,
                 scrub: 0.5
             }
         })
+        .fromTo('#p3-img', {
+            opacity: 0,
+            top: '350px'
+        }, {
+            top:'0px',
+            opacity: 1,
+            duration: 1,
+            ease: 'power1.inOut'
+        })
     })
 
     return (
         <div className='w-screen h-vdh bg-black relative flex-column items-center justify-center overflow-hidden py-[5%] ' id='trigger3'>
-            <div className='flex flex-col lg:flex-row items-center justify-center mx-[10%] relative lg:mt-[10%'>
 
-                <div className='flex flex-col items-start md:items-center lg:items-start justify-center'>
+            <div className='flex flex-col lg:flex-row items-center justify-center mx-[10%] relative '>
+
+                <div className='flex flex-col items-start md:items-center lg:items-start justify-cente w-[100%] '>
                     <h1 className='text-white font-bold text-5xl lg:text-6xl md:pt-[5%]' id='text-head-1'>THE BMW S 1000
                         <span className="text-red-500 relative"> RR
                         </span>
@@ -46,10 +57,13 @@ const Page3 = () => {
                     </p>
                 </div>
 
-                <img
-                    src='/assets/page3/page3-head-img.png'
-                    className='w-[100%] h-[300px] lg:w-[40%] lg:h-[70%] relative lg:absoulte md:right-[0%] md:bottom-[0%]  lg:right-[0%] lg:bottom-[0%]'
-                />
+                <div className="w-[400px] h-[300px] lg:w-[900px] lg:h-[70%] relative lg:relative overflow-hidden">
+                    <img
+                        src="/assets/page3/page3-head-img.png"
+                        className="w-[100%] h-[100%] relative"
+                        id="p3-img"
+                    />
+                </div>
 
             </div>
         </div>
