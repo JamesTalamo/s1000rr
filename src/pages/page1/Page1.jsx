@@ -15,10 +15,10 @@ const Page1 = () => {
                 trigger: '#clip',
                 scrub: 1,
                 start: 'top top',
-                end: '+700',
+                end: '+1500',
                 pin: '#img',
                 pinSpacing: true,
-                // markers: true
+
             }
         })
 
@@ -30,17 +30,22 @@ const Page1 = () => {
                 color: 'black',
                 duration: 1
             }, 0)
+            .to('#test1', {
+                left: '5%'
+            })
             .fromTo('#img',
                 {
-                    scale: 0.2,
-                    clipPath: 'circle(26.3% at 50% 50%)'
+                    scale: 0.5,
+                    clipPath: 'circle(160px at 50% 50%)'
                 },
                 {
                     scale: 1,
                     clipPath: 'circle(70.7% at 50% 50%)',
                     duration: 1
                 }
-            );
+            )
+
+
 
 
 
@@ -339,7 +344,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
             <h1 className='text-5xl font-bold absolute left-[-65%] top-[80%] text-[5rem] whitespace-nowrap'>
-                <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
+                <span className='text-red-500 relative' >B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
@@ -393,7 +398,7 @@ const Page1 = () => {
                 <span className='text-red-500'>B</span><span className='text-white' id='b'>M</span><span className='text-blue-500'>W </span>
             </h1>
             <img
-                src='https://images.unsplash.com/photo-1635073943212-f34dfbfcc3b0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8czEwMDBycnxlbnwwfHwwfHx8MA%3D%3D'
+                src='/assets/page1/page1-img1.png'
                 className='object-cover w-screen h-screen' id='img'
             />
 

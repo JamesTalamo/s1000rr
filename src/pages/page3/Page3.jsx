@@ -14,10 +14,10 @@ const Page3 = () => {
             scrollTrigger: {
                 trigger: '#trigger3',
                 start: 'bottom bottom',
-                pin: '#trigger3',
+                pin: true,
                 pinSpacer: true,
                 // markers: true,
-                scrub: 1,
+                scrub: 1
             }
         })
 
@@ -25,7 +25,7 @@ const Page3 = () => {
             opacity: 0
         }, {
             opacity: 1,
-            duration:10
+            duration: 10
         })
 
             .fromTo('#page3-p1', {
