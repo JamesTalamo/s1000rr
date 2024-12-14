@@ -16,7 +16,7 @@ const Page3 = () => {
                 start: 'top center',
                 end : 'center center',
                 toggleActions: 'restart none reverse none',
-                markers: true,
+                // markers: true,
 
             }
         })
