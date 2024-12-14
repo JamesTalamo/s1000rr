@@ -33,10 +33,10 @@ const Page3 = () => {
     return (
         <div className='w-screen h-vdh bg-black relative flex-column items-center justify-center overflow-hidden py-[5%] ' id='trigger3'>
 
-            <div className='flex flex-col lg:flex-row items-center justify-center mx-[10%] relative '>
+            <div className='flex flex-col lg:flex-row items-center justify-center py-[15%] md:py-[-0%] mx-[10%] relative '>
 
                 <div className='flex flex-col items-start md:items-center lg:items-start justify-cente w-[100%] '>
-                    <h1 className='text-white font-bold text-5xl lg:text-6xl pt-[30%] md:pt-[10%]' id='text-head-1'>THE BMW S 1000
+                    <h1 className='text-white font-bold text-5xl lg:text-6xl md:pt-[10%]' id='text-head-1'>THE BMW S 1000
                         <span className="text-red-500 relative"> RR
                         </span>
                     </h1>
