@@ -11,11 +11,12 @@ const HeadPage = () => {
   useGSAP(() => {
     gsap.to('#head-vid1', {
       scale: 0.8,
+      clipPath: 'polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)',
       scrollTrigger: {
-        trigger : '#triggerHead',
+        trigger: '#triggerHead',
         scrub: 2,
         start: 'top top',
-        end: '100 top',
+        end: '+=1000 top',
         // markers: true
       }
     })
@@ -30,7 +31,7 @@ const HeadPage = () => {
         muted
         src='assets/head/video1.mp4'
         className="w-full h-full object-cover"
-        style={{ objectPosition: '25% center' }}
+        style={{ objectPosition: '25% center', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' }}
       />
     </div>
   )
