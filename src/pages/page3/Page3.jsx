@@ -34,11 +34,11 @@ const Page3 = () => {
             <div className='flex flex-col lg:flex-row items-center justify-center py-[15%] md:py-[-0%] mx-[10%] relative '>
 
                 <div className='flex flex-col items-start md:items-center lg:items-start justify-cente w-[100%] '>
-                    <h1 className='text-black font-bold text-5xl lg:text-6xl md:pt-[10%]' id='text-head-1'>THE BMW S 1000
+                    <h1 className='text-black font-bold text-3xl md:text-4xl lg:text-6xl md:pt-[10%]' id='text-head-1'>THE BMW S 1000
                         <span className="text-red-500 relative"> RR
                         </span>
                     </h1>
-                    <h2 className='font-bold text-3xl text-black pb-[2%]'>CHALLENGE YOUR LIMITS</h2>
+                    <h2 className='font-bold text-2xl md:text-3xl lg:text-3xl text-black pb-[2%]'>CHALLENGE YOUR LIMITS</h2>
 
                     <p className='text-black text-start w-[100%] md:w-[100%] lg:w-[70%] pb-[5%]'>
                         The RR is now even more focused and more
