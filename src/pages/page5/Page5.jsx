@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionLogo from '../../../public/assets/page5/sectionLogo.jsx'
+import SectionLogo from '../../../public/assets/page5/SectionLogo.jsx'
 
 const Page5 = () => {
     return (
