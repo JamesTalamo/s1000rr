@@ -13,21 +13,21 @@ const Page3 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger3',
-                start: '-100 bottom',
+                start: 'bottom bottom',
                 end: 'top top',
                 pinSpacer: true,
                 // markers: true,
                 // scrub: 0.5,
-                toggleActions:'restart none none none'
+                toggleActions: 'restart none none none'
 
             }
         })
-        .fromTo('#p3-img', {
-            top: '350px'
-        }, {
-            top:'0px',
-            duration: 0.5,
-        })
+            .fromTo('#p3-img', {
+                top: '350px'
+            }, {
+                top: '0px',
+                duration: 0.5,
+            })
     })
 
     return (
@@ -56,7 +56,7 @@ const Page3 = () => {
                     </p>
                 </div>
 
-                <div className="w-[400px] h-[300px] lg:w-[900px] lg:h-[70%] relative lg:relative overflow-hidden">
+                <div className='overflow-hidden'>
                     <img
                         src="/assets/page3/page3-head-img.png"
                         className="w-[100%] h-[100%] relative"
