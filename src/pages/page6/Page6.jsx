@@ -24,13 +24,13 @@ const Page6 = () => {
                             className='w-full h-full'
                         />
                     </div>
-                    <div className={`w-[100px] h-[100px] cursor-pointer ${select === 3 ? 'border-2 border-solid border-black' : ''}`} onClick={() => changeSelect(2)}>
+                    <div className={`w-[100px] h-[100px] cursor-pointer ${select === 3 ? 'border-2 border-solid border-black' : ''}`} onClick={() => changeSelect(3)}>
                         <img
                             src='assets/page6/page6-sel2.jpg'
                             className='w-full h-full'
                         />
                     </div>
-                    <div className={`w-[100px] h-[100px] cursor-pointer ${select === 2 ? 'border-2 border-solid border-black' : ''}`} onClick={() => changeSelect(3)}>
+                    <div className={`w-[100px] h-[100px] cursor-pointer ${select === 2 ? 'border-2 border-solid border-black' : ''}`} onClick={() => changeSelect(2)}>
                         <img
                             src='assets/page6/page6-sel3.jpg'
                             className='w-full h-full'
