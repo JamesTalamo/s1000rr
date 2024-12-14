@@ -40,7 +40,7 @@ const Page4 = () => {
 
                 <div className='w-full h-full flex justify-between flex-col lg:flex-row relative'>
                     <div>
-                        <h2 className='font-bold text-4xl w-[100%] lg:w-[600px]'>
+                        <h2 className='font-bold text-3xl md:text-4xl lg:text-4xl w-[100%] lg:w-[600px]'>
                             It’s hard to imagine the race track without it – and the RR is also intrinsically linked to it
                         </h2>
                         <p className='w-[100%] lg:w-[600px] py-[2%]'>You can achieve new personal bests with the more aerodynamic front and side trim panels. The new winglets generate up to
@@ -66,7 +66,7 @@ const Page4 = () => {
                         />
                     </div>
                     <div>
-                        <h2 className='font-bold text-4xl w-[100%] lg:w-[600px]'>
+                        <h2 className='text-3xl md:text-4xl lg:text-4xl w-[100%] lg:w-[600px]'>
                             It’s hard to imagine the race track without it – and the RR is also intrinsically linked to it
                         </h2>
                         <p className='w-[100%] lg:w-[600px] py-[2%]'>You can achieve new personal bests with the more aerodynamic front and side trim panels. The new winglets generate up to
