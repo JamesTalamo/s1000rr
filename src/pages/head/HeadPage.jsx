@@ -23,7 +23,7 @@ const HeadPage = () => {
   })
 
   return (
-    <div className='w-screen h-dvh' id='triggerHead'>
+    <div className='w-screen h-dvh relative' id='triggerHead'>
       <video
         id='head-vid1'
         autoPlay
@@ -33,6 +33,7 @@ const HeadPage = () => {
         className="w-full h-full object-cover"
         style={{ objectPosition: '25% center', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' }}
       />
+      <div className='absolute top-0 left-0 w-full h-full bg-transparent z-20' />
     </div>
   )
 }
