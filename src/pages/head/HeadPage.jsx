@@ -11,7 +11,7 @@ const HeadPage = () => {
   useGSAP(() => {
     gsap.to('#head-vid1', {
       scale: 0.8,
-      clipPath: 'polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)',
+      clipPath: 'polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%)',
       scrollTrigger: {
         trigger: '#triggerHead',
         scrub: 2,

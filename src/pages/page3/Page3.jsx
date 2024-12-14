@@ -13,17 +13,15 @@ const Page3 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger3',
-                start: 'bottom bottom',
-                end: 'top top',
-                pinSpacer: true,
-                // markers: true,
-                // scrub: 0.5,
-                toggleActions: 'restart none none none'
+                start: 'top center',
+                end : 'center center',
+                toggleActions: 'restart none reverse none',
+                markers: true,
 
             }
         })
             .fromTo('#p3-img', {
-                top: '350px'
+                top: '400px'
             }, {
                 top: '0px',
                 duration: 0.5,
@@ -31,18 +29,18 @@ const Page3 = () => {
     })
 
     return (
-        <div className='w-screen h-vdh bg-black relative flex-column items-center justify-center overflow-hidden py-[5%] ' id='trigger3'>
+        <div className='w-screen h-vdh bg-white relative flex-column items-center justify-center overflow-hidden py-[5%] ' id='trigger3'>
 
             <div className='flex flex-col lg:flex-row items-center justify-center py-[15%] md:py-[-0%] mx-[10%] relative '>
 
                 <div className='flex flex-col items-start md:items-center lg:items-start justify-cente w-[100%] '>
-                    <h1 className='text-white font-bold text-5xl lg:text-6xl md:pt-[10%]' id='text-head-1'>THE BMW S 1000
+                    <h1 className='text-black font-bold text-5xl lg:text-6xl md:pt-[10%]' id='text-head-1'>THE BMW S 1000
                         <span className="text-red-500 relative"> RR
                         </span>
                     </h1>
-                    <h2 className='font-bold text-3xl text-white pb-[2%]'>CHALLENGE YOUR LIMITS</h2>
+                    <h2 className='font-bold text-3xl text-black pb-[2%]'>CHALLENGE YOUR LIMITS</h2>
 
-                    <p className='text-white text-start w-[100%] md:w-[100%] lg:w-[70%] pb-[5%]'>
+                    <p className='text-black text-start w-[100%] md:w-[100%] lg:w-[70%] pb-[5%]'>
                         The RR is now even more focused and more
                         precisely geared towards pure performance.
                         For those who increasingly demand more. More
