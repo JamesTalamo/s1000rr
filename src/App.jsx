@@ -5,7 +5,8 @@ import Page2 from "./pages/page2/Page2"
 import Page3 from "./pages/page3/Page3"
 import Page4 from "./pages/page4/Page4"
 import Page5 from "./pages/page5/Page5"
-import SectionDivider from "./pages/page5/SectionDivider.jsx"
+import Page6 from "./pages/page6/Page6"
+import SectionDivider from "./common/SectionDivider"
 
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
       <Page1 />
       <Page2 />
       <Page3 />
-      <SectionDivider />
+      <SectionDivider title={'HIGHLIGHTS OF THE SUPERBIKE'} />
       <Page5 />
       <Page4 />
+      <SectionDivider title={'DESIGN IS MORE THAN JUST APPEARANCE'} />
+      <Page6 />
     </div>
   )
 }
