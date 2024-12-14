@@ -12,8 +12,8 @@ const Page4 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger4',
-                start: 'top center',
-                end: 'top top',
+                start: '-200 center',
+                end: '-200 center',
                 toggleActions: 'restart none reverse none',
                 // markers: true,
             }

@@ -14,7 +14,7 @@ const Page3 = () => {
             scrollTrigger: {
                 trigger: '#trigger3',
                 start: 'top bottom',
-                end: 'top top',
+                end: 'top bottom',
                 toggleActions: 'restart none reverse none',
                 // markers: true,
 

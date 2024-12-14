@@ -7,7 +7,7 @@ const SectionLogo = () => {
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            style={{ width: '100px'}}
+            style={{ width: '100%'}}
         >
             <path d="M7.2 26.38H9.2V27.1H7.2V26.38Z" fill="currentColor"></path>
             <path d="M11.2 26.38H13.2V27.1H11.2V26.38Z" fill="currentColor"></path>
