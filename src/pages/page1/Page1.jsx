@@ -30,9 +30,6 @@ const Page1 = () => {
                 color: '#7F7F7F',
                 duration: 1
             }, 0)
-            .to('#test1', {
-                left: '5%'
-            })
             .fromTo('#img',
                 {
                     scale: 0.5,
