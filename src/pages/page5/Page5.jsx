@@ -14,7 +14,7 @@ const Page5 = () => {
                     <div className='w-[500px] h-[2px] bg-black'></div>
                 </div>
                 <div className='w-full flex items-center justify-center'>
-                    <h1 className='font-bold text-5xl text-center'>HIGHLIGHTS OF THE SUPERBIKE</h1>
+                    <h1 className='font-bold text-3xl md:text-4xl lg:text-5xl text-center'>HIGHLIGHTS OF THE SUPERBIKE</h1>
                 </div>
             </div >
 
