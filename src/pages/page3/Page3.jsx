@@ -13,8 +13,8 @@ const Page3 = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#trigger3',
-                start: 'top bottom',
-                end: 'top bottom',
+                start: 'top center',
+                end: '-200 center',
                 toggleActions: 'restart none reverse none',
                 // markers: true,
 
