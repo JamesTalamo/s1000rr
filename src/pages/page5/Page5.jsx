@@ -1,6 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 const Page5 = () => {
+
+    // Preload images
+    useEffect(() => {
+        const images = [
+            'assets/page5/page5-img1.png',
+            'assets/page5/page5-img2.png',
+            'assets/page5/page5-img3.png',
+            'assets/page5/page5-img4.png',
+            'assets/page5/page5-img5.png',
+            'assets/page5/page5-img6.png',
+            'assets/page5/page5-img7.png',
+            'assets/page5/page5-img8.png',
+        ];
+
+        images.forEach((src) => {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.href = src;
+            link.as = 'image';
+            document.head.appendChild(link);
+        });
+
+    }, []);
+
     return (
         <div className='w-screen lg:h-dvh relative flex-col items-center justify-center' id='trigger5'>
 
@@ -15,9 +39,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Even more efficient front and side trim panels with winglets
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -30,9 +52,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Dynamic front view and tall windscreen
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -45,9 +65,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Powerful M Lightweight battery
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -60,9 +78,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Quick action throttle
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -79,9 +95,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             A drive for performance: Engine concept
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -94,9 +108,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Dynamic rear end with a short license plate carrier
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -109,9 +121,7 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             M Carbon tail-hump cover with camera adapter
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
@@ -124,16 +134,14 @@ const Page5 = () => {
                         <div className='text-1xl font-bold'>
                             Everything in hand: the steering angle sensor
                         </div>
-                        <div className='w-90% h-[2px] bg-slate-600'>
-
-                        </div>
+                        <div className='w-90% h-[2px] bg-slate-600' />
                     </div>
                 </div>
 
             </div>
 
         </div>
-    )
+    );
 }
 
-export default Page5
+export default Page5;

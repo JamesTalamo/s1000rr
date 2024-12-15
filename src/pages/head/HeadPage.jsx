@@ -25,6 +25,9 @@ const HeadPage = () => {
   return (
     <div className='w-screen h-dvh relative' id='triggerHead'>
       <video
+
+        preload="auto"
+
         id='head-vid1'
         autoPlay
         loop

@@ -902,7 +902,10 @@ const Page1 = () => {
             </h1>
             
             
-            <img
+            <img 
+
+                 preload="auto"
+
                 src='/assets/page1/page1-img1.png'
                 className='object-cover w-screen h-screen' id='img'
             />
