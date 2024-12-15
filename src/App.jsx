@@ -36,8 +36,7 @@ function App() {
       <Page3 />
       <SectionDivider title={'HIGHLIGHTS OF THE SUPERBIKE'} />
       <Page5 />
-
-      {/* Conditionally render Carousel or Page4/Page8 based on screen size */}
+      
       {isLgScreen ? <Carousel /> : <>
         <Page4 />
         <Page8 />

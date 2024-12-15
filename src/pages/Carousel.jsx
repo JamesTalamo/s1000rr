@@ -21,7 +21,8 @@ const Carousel = () => {
             }
         })
             .to('#testTrigger', {
-                left: '-300vw'
+                left: '-300vw',
+                ease: 'power1.inOut'
             })
 
     })
