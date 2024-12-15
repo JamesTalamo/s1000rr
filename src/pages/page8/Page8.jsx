@@ -15,7 +15,7 @@ const Page8 = () => {
                 start: '-200 center',
                 end: '-200 center',
                 toggleActions: 'restart none reverse none',
-                markers: true,
+                // markers: true,
             }
         })
             .fromTo('#Page8-img1', {
