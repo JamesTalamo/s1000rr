@@ -11,6 +11,7 @@ export default {
         'custom-dark2': '#141414',
         'custom-dark3': '#282828',
         'text-gray-custom' : '#cecece',
+        'bg-custom' : '#f2f2f2'
       }
     },
   },

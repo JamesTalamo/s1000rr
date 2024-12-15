@@ -7,6 +7,9 @@ import Page4 from "./pages/page4/Page4"
 import Page5 from "./pages/page5/Page5"
 import Page6 from "./pages/page6/Page6"
 import SectionDivider from "./common/SectionDivider"
+import Page7 from "./pages/page7/Page7"
+import TextSection from "./common/TextSection"
+
 
 
 function App() {
@@ -21,6 +24,8 @@ function App() {
       <Page4 />
       <SectionDivider title={'DESIGN IS MORE THAN JUST APPEARANCE'} />
       <Page6 />
+      <TextSection />
+      <Page7 />
     </div>
   )
 }

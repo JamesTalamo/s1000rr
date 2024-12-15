@@ -39,6 +39,35 @@ const Page6 = () => {
                 </div>
             </div>
 
+            <div className=' bg-white flex flex-col-reverse items-center justify-between lg:flex-row  px-[10%] my-[5%] gap-[5%]'>
+                <div>
+                    <h1 className='text-2xl font-bold uppercase'>Three variants, one character</h1>
+                    <p className='w-full lg:w-[550px]'>No matter which variant you choose: in this case, not millimeters or milliseconds are crucial,
+                        it’s all about your preferences. However, one thing is clear: each RR is geared towards pure
+                        performance.
+                    </p>
+                </div>
+
+                <div className='w-full lg:w-[700px] bg-bg-custom mb-[5%] lg:mb-[0%] p-[3%]'>
+                    <div className='text-2xl font-bold uppercase px-[5%] pb-5'>
+                        {
+                            select === 1 ? "Light White/M Motorsport" :
+                                select === 2 ? "Blackstorm metallic" :
+                                    select === 3 ? "Sport" :
+                                        ""
+                        }
+                    </div>
+                    <div className='px-[5%]'>
+                        {
+                            select === 1 ? "The iconic color scheme makes it immediately clear where you come from and where you are heading: to the race track. Paired with the M Package, there is absolutely no doubt." :
+                                select === 2 ? "Sporty, sharp and clearly defined. The aim of the RR is as uncompromising and clear as the color scheme: top performance, whether on the road or on the race track." :
+                                    select === 3 ? "SOn the attack: The paint in Bluestone Metallic exudes confidence with an ultra-sporty aesthetic. The dynamic highlights in Racing Red emphasize this bike's potential. Now it’s up to you to walk the walk." :
+                                        ""
+                        }
+                    </div>
+
+                </div>
+            </div>
         </div >
     )
 }
