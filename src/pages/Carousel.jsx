@@ -40,6 +40,7 @@ const Carousel = () => {
         left: '-300vw',
         ease: 'power1.inOut'
       });
+      
   });
 
   return (
